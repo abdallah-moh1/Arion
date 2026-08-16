@@ -1,0 +1,37 @@
+{
+  "name": "arion",
+  "description": "Your space for thought.",
+  "version": "0.1.0",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "homepage": "https://github.com/abdallah-moh1/arion#readme",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/abdallah-moh1/arion/issues"
+  },
+  "author": {
+    "email": "abdallah.moh.q@gmail.com",
+    "name": "Abdallah Mohammad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdallah-moh1/arion.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "@tauri-apps/cli": "^2.11.4",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^24.13.3",
+    "svelte": "^5.56.8",
+    "svelte-check": "^4.7.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
